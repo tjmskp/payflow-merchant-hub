@@ -1,12 +1,46 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Background3D from "@/components/Background3D";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import CardsShowcase from "@/components/CardsShowcase";
+import Pricing from "@/components/Pricing";
+import CTA from "@/components/CTA";
+import Footer from "@/components/Footer";
+import TransactionPulse from "@/components/TransactionPulse";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-futuristic-darker text-white overflow-x-hidden">
+      {/* 3D Animated Background */}
+      <Background3D />
+      
+      {/* Navbar */}
+      <Navbar />
+      
+      {/* Main Content */}
+      <main>
+        {/* Hero Section */}
+        <Hero />
+        
+        {/* Features Section */}
+        <Features />
+        
+        {/* Cards Showcase */}
+        <CardsShowcase />
+        
+        {/* Pricing Section */}
+        <Pricing />
+        
+        {/* CTA Section */}
+        <CTA />
+      </main>
+      
+      {/* Footer */}
+      <Footer />
+      
+      {/* Transaction Pulse Animation */}
+      <TransactionPulse />
     </div>
   );
 };
