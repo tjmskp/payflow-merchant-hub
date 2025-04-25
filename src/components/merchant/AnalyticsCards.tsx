@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { DollarSign, TrendingUp, Clock, AlertCircle } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const analyticsData = [
   {
